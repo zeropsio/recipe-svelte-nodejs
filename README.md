@@ -1,6 +1,6 @@
 # Zerops x SvelteKit - Node.js
 
-Sveltekit is a framework for building robust, fast web applications using Svelte. [Zerops](https://zerops.io) makes deploying and running Sveltekit apps, both server side rendered and static, a breeze. This recipe showcases the Static version, see [zeropsio/recipe-sveltekit-static](https://github.com/zeropsio/recipe-sveltekit-static) for the Static version.
+Sveltekit is a framework for building robust, fast web applications using Svelte. [Zerops](https://zerops.io) makes deploying and running Sveltekit apps, both server side rendered and static, a breeze. This recipe showcases the Static version, see [zeropsio/recipe-svelte-static](https://github.com/zeropsio/recipe-svelte-static) for the Static version.
 
 ![sveltekit](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/svg/cover-svelte.svg)
 
@@ -8,7 +8,7 @@ Sveltekit is a framework for building robust, fast web applications using Svelte
 
 ## Deploy on Zerops
 
-You can either click the deploy button to deploy directly on Zerops, or manually copy the [import yaml](https://github.com/zeropsio/recipe-sveltekit-nodejs/blob/main/zerops-project-import.yml) to the import dialog in the Zerops app.
+You can either click the deploy button to deploy directly on Zerops, or manually copy the [import yaml](https://github.com/zeropsio/recipe-svelte-nodejs/blob/main/zerops-project-import.yml) to the import dialog in the Zerops app.
 
 [![Deploy on Zerops](https://github.com/zeropsio/recipe-shared-assets/blob/main/deploy-button/green/deploy-button.svg)](https://app.zerops.io/recipe/sveltekit-nodejs)
 
@@ -49,7 +49,7 @@ If you want to modify your existing SvelteKit app to efficiently run on Zerops, 
     export default config;
     ```
 
-Now, just add the [zerops.yml](https://github.com/zeropsio/recipe-sveltekit-nodejs/blob/main/zerops.yml) file to the root of your project.
+Now, just add the [zerops.yml](https://github.com/zeropsio/recipe-svelte-nodejs/blob/main/zerops.yml) file to the root of your project.
 
 
 <br/>
